@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jokes Generator</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path fill="#0099ff" fill-opacity="1"
+            d="M0,160L34.3,144C68.6,128,137,96,206,80C274.3,64,343,64,411,74.7C480,85,549,107,617,133.3C685.7,160,754,192,823,176C891.4,160,960,96,1029,64C1097.1,32,1166,32,1234,80C1302.9,128,1371,224,1406,272L1440,320L1440,0L1405.7,0C1371.4,0,1303,0,1234,0C1165.7,0,1097,0,1029,0C960,0,891,0,823,0C754.3,0,686,0,617,0C548.6,0,480,0,411,0C342.9,0,274,0,206,0C137.1,0,69,0,34,0L0,0Z">
+        </path>
+    </svg>
+    <div class="card joke">
+        <div class="card-body">
+            <p id="joke"></p>
+            <p id="author"></p>
+            <div class="btns">
+                <a class="twitter-share-button link__btn" target="_blank" >
+                    Tweet</a>
+                <a class=" btn-sm link__btn" id="new__joke">New Joke</a>
+            </div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+
+</html>

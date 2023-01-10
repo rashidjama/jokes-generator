@@ -1,0 +1,39 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.joke {
+    width: 90%;
+    margin: auto;
+}
+#author {
+    text-align: center;
+    margin-top: 10px;
+}
+.link__btn {
+    background-color: #009AFE;
+    color: #fff;
+    text-decoration: none;
+    padding: 3px 9px;
+    font-size: 0.8em;
+    border-radius: 30px;
+    cursor: pointer;
+}
+.link__btn:hover {
+    border: 1px solid #000;
+    background-color: #fff;
+    color: #000;
+}
+.btns {
+    display: flex;
+    justify-content: space-between;
+}
+
+@media (min-width: 700px) {
+    .joke {
+        width: 30em;
+    }
+}
